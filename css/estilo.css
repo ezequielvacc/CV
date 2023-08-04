@@ -124,7 +124,8 @@ h1 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 #cv-info {
-  max-width: 600px;
+  max-width: 80vw;
+  max-height: 100vh;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff00;
@@ -134,18 +135,18 @@ h1 {
 
 #personal-info {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2.5rem;
   margin: 0;
   color: #ffffff;
 }
 
 .subtitle {
-  font-size: 18px;
-  margin-top: 5px;
+  font-size: 1.4rem;
+  margin-top: 0.1rem;
   color: #fafafa;
 }
 
@@ -153,16 +154,13 @@ ul {
   list-style: none;
   padding: 0;
   color: #fafafa;
+  text-align:left;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 0.1rem;
 }
 
-li strong {
-  width: 100px;
-  display: inline-block;
-}
 p{
   color: #fafafa;
 }
